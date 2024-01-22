@@ -1,3 +1,7 @@
 export default function Root() {
-  return <div>Sup</div>;
+  return (
+    <div>
+      <h2>Sup</h2>
+    </div>
+  );
 }
