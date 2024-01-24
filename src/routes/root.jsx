@@ -1,12 +1,33 @@
 import { Link } from "react-router-dom";
-import Header from "../components/Header/Header";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import Button from "../components/Button/Button";
 
 export default function Root() {
   return (
     <div className="root-body">
-      <Header />
+      <header>
+        <h1 className="header-name">Javier Rodriguez</h1>
+        <h2 className="title-text">Web Developer</h2>
+        <nav>
+          <ul className="navbar">
+            <li>
+              <Link className="nav-links" to={"/about"}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-links" to={"/projects"}>
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-links" to={"/contact"}>
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
       <main>
         <img
           className="hero-image"

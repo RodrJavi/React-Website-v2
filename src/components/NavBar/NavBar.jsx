@@ -1,23 +1,31 @@
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+import { IoPersonSharp } from "react-icons/io5";
+import { GoProjectRoadmap } from "react-icons/go";
+import { MdOutlineEmail } from "react-icons/md";
 
 export default function NavBar() {
   return (
     <nav>
-      <ul className="navbar">
+      <img
+        src="../images/Icon2.png"
+        alt="Icon with JR on it"
+        className="nav-home-icon"
+      />
+      <ul className="nav-icons">
         <li>
           <Link className="nav-links" to={"/about"}>
-            About
+            <IoPersonSharp size={50} />
           </Link>
         </li>
         <li>
           <Link className="nav-links" to={"/projects"}>
-            Projects
+            <GoProjectRoadmap size={50} />
           </Link>
         </li>
         <li>
           <Link className="nav-links" to={"/contact"}>
-            Contact
+            <MdOutlineEmail size={50} />
           </Link>
         </li>
       </ul>

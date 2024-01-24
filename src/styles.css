@@ -47,6 +47,40 @@ html {
   width: 100%;
 }
 
+.header-name {
+  font-size: 33px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.title-text {
+  margin-top: 0px;
+  font-size: 45px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  font-size: 20px;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
+}
+
+.mobile-header {
+  display: flex;
+  width: 100%;
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 45px;
+}
 .footer {
   margin-top: 40px;
 }
