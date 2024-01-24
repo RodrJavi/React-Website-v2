@@ -1,7 +1,12 @@
+import NavBar from "../components/NavBar/NavBar";
 export default function Projects() {
   return (
     <div>
-      <h2>This is where projects page is</h2>
+      <header>
+        <NavBar />
+      </header>
+      <h1>Projects</h1>
+      <div>This is where the cards get mapped</div>
     </div>
   );
 }

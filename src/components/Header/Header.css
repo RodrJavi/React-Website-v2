@@ -1,9 +1,11 @@
-.header-container {
-  display: flex;
-  justify-content: space-between;
+.header-name {
+  font-size: 33px;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-.navbar {
-  display: flex;
-  list-style-type: none;
+.title-text {
+  margin-top: 0px;
+  font-size: 45px;
+  text-align: center;
 }
