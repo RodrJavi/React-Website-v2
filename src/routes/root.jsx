@@ -28,7 +28,7 @@ export default function Root() {
           </ul>
         </nav>
       </header>
-      <main>
+      <main className="root-main">
         <img
           className="hero-image"
           src="https://placehold.co/400x300"

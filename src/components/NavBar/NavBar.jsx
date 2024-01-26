@@ -7,11 +7,13 @@ import { MdOutlineEmail } from "react-icons/md";
 export default function NavBar() {
   return (
     <nav>
-      <img
-        src="../images/Icon2.png"
-        alt="Icon with JR on it"
-        className="nav-home-icon"
-      />
+      <Link to={"/"}>
+        <img
+          src="../images/Icon2.png"
+          alt="Icon with JR on it"
+          className="nav-home-icon"
+        />
+      </Link>
       <ul className="nav-icons">
         <li>
           <Link className="nav-links" to={"/about"}>
