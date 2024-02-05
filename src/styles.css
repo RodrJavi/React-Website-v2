@@ -4,6 +4,8 @@ html {
 
 :root {
   --main-red: #881515;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .root-body {
@@ -105,4 +107,8 @@ ul {
 
 .about-body {
   font-size: 20px;
+}
+
+.hero-image {
+  width: 400px;
 }

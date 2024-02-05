@@ -8,9 +8,8 @@ export default function Contact() {
         <NavBar />
       </header>
       <h1>
-        Are you interested? <br /> Say hi!
+        Want to get in touch? <br /> Say hi!
       </h1>
-      <div>Quick contact card</div>
       <ContactForm />
     </div>
   );

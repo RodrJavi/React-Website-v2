@@ -9,8 +9,9 @@ export default function About() {
       <h1 className="page-title">About Me</h1>
       <div className="projects-container">
         <img
-          src="https://placehold.co/400x300"
+          src="./images/about_me_new.jpg"
           alt="Picture of Javier Rodriguez"
+          className="hero-image"
         />
         <p className="about-body">
           I was introduced to web development in late 2021 and since then have
